@@ -1,0 +1,7 @@
+{
+  "port": 5800,
+  "database": {
+    "version": 1,
+    "path": "urlshortener.db"
+  }
+}
