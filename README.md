@@ -15,7 +15,7 @@ The URL Shortener project aims to provide a simple service that converts long UR
 
 1. **Clone the Repository**:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ProImpact/URL-Shortener
    cd urlshortener
    ```
 
@@ -35,11 +35,11 @@ The URL Shortener project aims to provide a simple service that converts long UR
 
 ## Routes and Handlers 🌐
 
-- **POST /shorten**: Create a new shortened URL.
+- **POST /short**: Create a new shortened URL.
 - **GET /:url_id**: Redirect to the original URL using its shortened version.
-- **GET /urls**: Retrieve all shortened URLs.
-- **DELETE /:url_id**: Delete a shortened URL by its ID.
-- **GET /info/:url_id**: Get information about a specific shortened URL.
+- **GET /api/urls**: Retrieve all shortened URLs.
+- **DELETE /api/urls/:url_id**: Delete a shortened URL by its ID.
+- **GET /api/urls/:url_id**: Get information about a specific shortened URL.
 
 ## Project Structure 🗂️
 
